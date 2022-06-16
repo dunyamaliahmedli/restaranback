@@ -1,0 +1,37 @@
+﻿@*@model List<Category>*@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Category  </h1>
+<table class="text-center">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th colspan="2">Action</th>
+
+
+    </tr>
+    @*@foreach (var item in Model)
+    {
+
+<tr>
+    <td></td>
+    <td>@item.Name</td>
+    <form action="/" method="post">
+
+
+    <td><a asp-action="Edit" asp-route-id="@item.Id"  class="btn bg-light"> Edit </a></td>
+    <td><button asp-action="Delete" asp-route-id="@item.Id" class="btn bg-danger"> Delete </button></td>
+    </form>
+
+</tr>
+    }*@
+    
+</table>
+
+<div>
+
+
+    </div>
+

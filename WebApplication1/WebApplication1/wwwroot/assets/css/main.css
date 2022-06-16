@@ -1,0 +1,172 @@
+.main1{
+    width: 100%;
+    height: 100vh;
+    
+}
+#myHeader{
+    position: fixed;
+margin-left: 900px;
+}
+.burg{
+    margin-left: 800px;
+}
+.fixed-bg {
+    background-image: url("https://preview.colorlib.com/theme/meal/images/xslider-1.jpg.pagespeed.ic.grltCgRAOJ.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+  }
+  .Logo a{
+      text-decoration: none;
+      color: black;
+  }
+  .Logo{
+      width: 55px;
+      height: 55px;
+      border: 1px solid black;
+  }
+  .basliq{
+      margin-top: 260px;
+  }
+  .btn1{
+      border: 1px solid white;
+      transition: 1;
+  }
+  .btn1:hover{
+      background-color: white;
+      color: black;
+  }
+  .metn1{
+      width: 370px;
+      height: 450px;
+      background-color: white;
+      color: black;
+  }
+  .melumat{
+      background-color: #e9ecef    ;
+  }
+  .text2{
+      width: 590px;
+      align-items: center;
+      text-align: center;
+      margin-left: 600PX;
+      
+  }
+  .text2 p{
+    font-family: "Open Sans", Arial, sans-serif;
+  
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+  }
+  .chef{
+      margin-left: 500px;
+  }
+  .chef div p{
+    font-family: "Open Sans", Arial, sans-serif;
+  
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+  }
+  .menyu{
+    background-color: #e9ecef 
+  }
+  .xett{
+      margin-left: 500px;
+  }
+  i{
+     font-size: 47px;
+  }
+  .otherservices div p{
+    font-family: "Open Sans", Arial, sans-serif;
+  
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+width: 330px;
+  }
+  .ppp{
+      width: 100% !important;
+    
+  }
+  .Reservation{
+    background-color: #e9ecef 
+
+  }
+  .Reservation p{
+    font-family: "Open Sans", Arial, sans-serif;
+     line-height: 1.8;
+     font-weight: 330px;
+     
+     color: gray;
+
+  }
+  .inputs{
+      background-color: white;
+      width: 40%;
+      height: 30vh;
+      margin-left: 550px;
+  }
+  .reserv{
+      margin-left: 250px;
+  }
+  .inputs2{
+    width: 40%;
+    height: 45vh;
+  background-color: #e9ecef;
+  margin-left: 550px;
+
+  }
+  .cs{
+      margin-left: 33px;
+  }
